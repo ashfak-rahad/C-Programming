@@ -1,10 +1,14 @@
 
 // P-01 Take 3 integer variables named a,b and c . Scan the values
-// of these three variabes from user.Then stor the average of these tree variables into anew float variable named average .Finally print the output like the following example:
+// of these three variabes from user.Then stor the average of these 
+// tree variables into anew float variable named average .
+// Finally print the output like the following example:
 // Value of a:10
 // Value of b:40
 // Value of c:20
 // Average of a,b and c:30.00
+
+
 #include<stdio.h>
 int main(){
     int a,b,c;
