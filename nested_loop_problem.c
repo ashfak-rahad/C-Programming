@@ -1,26 +1,15 @@
 #include<stdio.h>
 int main(){
-     int i,j,k;
-     for ( i = 1; i <=1; i++)
+     int i,j;
+     for ( i = 1; i <=5; i++)
      {
-        printf("*\n");
-        for ( j = 1; j <=1; j++)
+       
+        for ( j = 1; j <=i; j++)
         {
-           printf("* *\n") ;
-           for ( i = 1; i <=1; i++)
-           {
-            printf("* * *\n");
-            for ( i = 1; i <=1; i++)
-            {
-               printf("* * * *\n");
-               for ( i = 1; i <=1; i++)
-               {
-                printf("* * * * *");
-               }
-               
-            }
+           printf("* ") ;
+           
             
-           }
+           
            
         }
         printf("\n");
